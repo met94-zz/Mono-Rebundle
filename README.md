@@ -13,7 +13,7 @@ After the first launch there will be config.json created and you have to set the
 
 ## Command line options
 #### help - Display more information on a specific command.
-#### verison - Display version information.
+#### version - Display version information.
 #### produce-stab - Produce stab only, do not compile.
 Options:
 -p, --path - Required. Path to a directory containing assemblies to bundle. 
@@ -31,4 +31,4 @@ In my case I had to edit mono_mkbundle_init function in temp.c in order to make 
 Xamarin.Android - The utility uses slightly modified version of [Xamarin.Android](https://github.com/xamarin/xamarin-android) project licensed under [MIT License](./LICENSE_XamarinAndroid).
 
 # License
-The utility is licensed under [MIT License](./LICENSE)).
+The utility is licensed under [MIT License](./LICENSE).
