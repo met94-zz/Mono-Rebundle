@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>Alan Bara</Authors>
+    <Product />
+    <Company />
+    <Copyright>2019 Alan Bara</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/met94/Mono-Rebundle</RepositoryUrl>
+    <PackageTags>Mono, Xamarin, C#, .NET, Reverse Engineering</PackageTags>
+    <Description>A utility for bundling Xamarin/Monodroid DLLs into an android shared library (libmonodroid_bundle_app.so).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="16.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
